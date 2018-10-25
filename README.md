@@ -87,7 +87,8 @@ sudo apt-get install ros-kinetic-rosserial
 #### 5. Git clone this repository into your catkin workspace folder
 ```
 cd ~/<catkin_ws>/src/git clone https://github.com/tushar-semwal/firebirdv-ros-package.git
-
+cd ~/<catkin_ws>
+source devel/setup.bash
 ```
 
 #### 6. Install the ros_lib library
@@ -97,7 +98,27 @@ cd ~/<catkin_ws>/src/git clone https://github.com/tushar-semwal/firebirdv-ros-pa
 3. Execute this command inside the sketchbook/libraries folder: `rosrun rosserial_arduino make_library.py .`
 4. Note there is a DOT (.) after make_library.py in the above command.
 5. Close and reopen the Arduino IDE and check the **Files->Examples->ros_lib**. If you can see it, congrats you have installed both ros_lib and FirebirdV libraries together.
+**Note2**: If you want to edit Arduino files in Windows, then you can just copy the `ros_lib` folder from the Ubuntu to the `C:\Program Files (x86)\Arduino\hardware\arduino\avr\` or `<INSTALLED_FOLDER>\Arduino\hardware\arduino\avr\` in your Windows OS.
 
-#### 7. 
+#### 7. Download hex file into the Firebird V
+1. Open Arduino IDE and open the  **Examples->firebird_v->ROS_FBV** example file.
+2. Click on **Sketch->Export compile binary**. May ask you to save at some location. Please do the same.
+3. Click **Sketch->Show sketch folder**.
+4. Burn the `ROS_FB.ino.mega.hex` file into your Firebird V robot using avrdude or any other tool.
 
+#### 8. Launch the ROS script file at the Ubuntu side
+```
+roslaunch firebird_v firebird_v.launch
+```
+A video of robot behavior is shown below:
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/ldE8_WxK808/0.jpg)](http://www.youtube.com/watch?v=ldE8_WxK808 "Firebird V ROS test"
 
+You should expect your robot to do following things sequentially:
+1. Buzzer on for 4 seconds.
+2. Buzzer off for 4 seconds.
+3. Bargraph LED displaying values from 1 to 255.
+4. Bargraph LED set to 0 (all leds off).
+5. LCD screen displaying "Hello".
+6. LCD screen finally displays "Done".
+
+That's it done.
