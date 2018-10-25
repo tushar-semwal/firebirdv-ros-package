@@ -111,7 +111,8 @@ source devel/setup.bash
 roslaunch firebird_v firebird_v.launch
 ```
 A video of robot behavior is shown below:
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/ldE8_WxK808/0.jpg)](http://www.youtube.com/watch?v=ldE8_WxK808 "Firebird V ROS test"
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/ldE8_WxK808/0.jpg)](http://www.youtube.com/watch?v=ldE8_WxK808 "Firebird V ROS test")
 
 You should expect your robot to do following things sequentially:
 1. Buzzer on for 4 seconds.
