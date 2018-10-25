@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="firebird_test" pkg="firebird_v" type="firebird_v_test.py">
+    
+  </node>
+	
+</launch>
