@@ -2,6 +2,7 @@
 
 **Note1**: The steps below are for **ROS Kinetic** installed on **Ubuntu Xenial (16.xx)**. To install ROS Kinetic follow [this](http://wiki.ros.org/kinetic/Installation/Ubuntu).
 
+Due credits to https://github.com/badrobot15/firebird_ros for the inspiration and base codes.
 #### 1. Install the Arduino IDE
 ```
 sudo apt-get update
@@ -99,4 +100,4 @@ cd ~/<catkin_ws>/src/git clone https://github.com/tushar-semwal/firebirdv-ros-pa
 
 #### 7. 
 
-Due credits to https://github.com/badrobot15/firebird_ros for the inspiration and base codes.
+
