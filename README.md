@@ -89,7 +89,7 @@ sudo apt-get install ros-kinetic-rosserial
 ```
 cd ~/Downloads/
 git clone https://github.com/tushar-semwal/firebirdv-ros-package.git
-cd firebirdbv-ros-package
+cd firebirdv-ros-package
 cp -r firebird_v/ ~/<catkin_ws>/src/
 cd ~/<catkin_ws>
 source devel/setup.bash
