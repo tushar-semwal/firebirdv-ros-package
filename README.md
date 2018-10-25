@@ -123,3 +123,6 @@ You should expect your robot to do following things sequentially:
 6. LCD screen finally displays "Done".
 
 That's it done.
+
+## TODOs
+1. cmd_vel topic and publish
