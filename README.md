@@ -100,6 +100,9 @@ source devel/setup.bash
 5. Close and reopen the Arduino IDE and check the **Files->Examples->ros_lib**. If you can see it, congrats you have installed both ros_lib and FirebirdV libraries together.
 **Note2**: If you want to edit Arduino files in Windows, then you can just copy the `ros_lib` folder from the Ubuntu to the `C:\Program Files (x86)\Arduino\hardware\arduino\avr\` or `<INSTALLED_FOLDER>\Arduino\hardware\arduino\avr\` in your Windows OS.
 
+#### 6a. Configure X_Bee
+Since we are using XBee for communication between the PC and FIrebird robot, make sure to follow this [tutorial](http://wiki.ros.org/rosserial_xbee/Tutorials/Example%20Network).
+
 #### 7. Download hex file into the Firebird V
 1. Open Arduino IDE and open the  **Examples->firebird_v->ROS_FBV** example file.
 2. Click on **Sketch->Export compile binary**. May ask you to save at some location. Please do the same.
