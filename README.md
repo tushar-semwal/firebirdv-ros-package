@@ -73,6 +73,10 @@ firebird.menu.cpu.atmega2560.build.board=AVR_MEGA2560
 4. That's it! Close the IDE and open it again. You will be able to select your new board with name as Firebird V Mega 2560 Robot. You will be able to see the same as shown below:
 ![sample_ide](https://github.com/tushar-semwal/Arduino-FirebirdV/blob/master/images/sample.png)
 
+#### 3b. Custom Arduino Libraries for Firebird V
+1. Put the folder FirebirdV/* [found here](https://github.com/tushar-semwal/Arduino-FirebirdV/tree/master/Library) into your `~/sketchbook/libraries/` AND `~/Downloads/arduino-xxx`folder (for safe side copy into both the folders). Close the IDE and open it again to see the examples under FirebirdV. 
+![example](https://github.com/tushar-semwal/Arduino-FirebirdV/blob/master/images/examples_arduino_FB.png)
+
 #### 4. Install ROSSerial for Kinetic
 ```
 sudo apt-get install ros-kinetic-rosserial-arduino
