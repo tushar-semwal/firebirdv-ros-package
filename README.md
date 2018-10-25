@@ -1,4 +1,4 @@
-# firebirdv-ros-package
+# ROS (Kinetic) package for Firebird V
 
 **Note1**: The steps below are for **ROS Kinetic** installed on **Ubuntu Xenial (16.xx)**. To install ROS Kinetic follow [this](http://wiki.ros.org/kinetic/Installation/Ubuntu).
 
@@ -98,3 +98,5 @@ cd ~/<catkin_ws>/src/git clone https://github.com/tushar-semwal/firebirdv-ros-pa
 5. Close and reopen the Arduino IDE and check the **Files->Examples->ros_lib**. If you can see it, congrats you have installed both ros_lib and FirebirdV libraries together.
 
 #### 7. 
+
+Due credits to https://github.com/badrobot15/firebird_ros for the inspiration and base codes.
