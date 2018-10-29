@@ -108,7 +108,7 @@ source devel/setup.bash
 Since we are using XBee for communication between the PC and FIrebird robot, make sure to follow this [tutorial](http://wiki.ros.org/rosserial_xbee/Tutorials/Example%20Network).
 
 #### 7. Download hex file into the Firebird V
-1. Open Arduino IDE and open the  **Examples->firebird_v->ROS_FBV** example file.
+1. Open Arduino IDE and open the  **Examples->firebird_v->ROS_FBV** example file. You can also get the .ino file from [here](https://github.com/tushar-semwal/Arduino-FirebirdV/blob/master/Library/FirebirdV/examples/ROS_FBV/ROS_FBV.ino).
 2. Click on **Sketch->Export compile binary**. May ask you to save at some location. Please do the same.
 3. Click **Sketch->Show sketch folder**.
 4. Burn the `ROS_FB.ino.mega.hex` file into your Firebird V robot using avrdude or any other tool.
