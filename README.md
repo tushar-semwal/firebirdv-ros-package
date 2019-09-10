@@ -99,7 +99,7 @@ source devel/setup.bash
 1. Go to the arduino sketchbook/libraries folder
 `cd ~/sketchbook/libraries`
 2. If not found, create one using `mkdir ~/sketchbook/libraries` and execute `cd ~/sketchbook/libraries`
-3. Execute this command inside the sketchbook/libraries folder: `rosrun rosserial_arduino make_library.py .`
+3. Execute this command inside the sketchbook/libraries folder: `rosrun rosserial_arduino make_libraries.py .`
 4. Note there is a DOT (.) after make_library.py in the above command.
 5. Close and reopen the Arduino IDE and check the **Files->Examples->ros_lib**. If you can see it, congrats you have installed both ros_lib and FirebirdV libraries together.
 **Note2**: If you want to edit Arduino files in Windows, then you can just copy the `ros_lib` folder from the Ubuntu to the `C:\Program Files (x86)\Arduino\hardware\arduino\avr\` or `<INSTALLED_FOLDER>\Arduino\hardware\arduino\avr\` in your Windows OS.
